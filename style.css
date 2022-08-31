@@ -1,71 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
-html{
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-font-family: 'Fira', serif;
+html {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-h1,h2,h3{
-    text-align: center;
-    text-transform: uppercase;
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
 }
-#add-title{
-text-align: center;
+
+.center {
+  text-align: center;
 }
-#title{
-margin-top: 10px;
-margin-bottom: 10px;
+
+form {
+  font-size: 1.2rem;
+  margin: 40px;
 }
-#year{
-margin-top: 10px;
-margin-bottom: 10px;
+
+form label {
+  display: block;
+  font-weight: 800;
 }
-#duration{
-margin-top: 10px;
+
+form select {
+  height: fit-content;
+  font-size: 1.1em;
 }
-.center{
-text-align: center;
-}
-form{
-font-size: 1.2rem;
-margin:40px;
-}
-form label{
-display: block;
-font-weight: 800;
-}
-form select{
-width: 100%;
-font-size:1.1rem;
-}
+
 input[type="text"] {
-width: 100%;
-padding: 0.5em;
-background-color: #538fcd;
-color: white;
-font-size: 1.1em;
-
-}
-::placeholder{
-color: rgba(255,255,255,0.5);
-
+  width: 100%;
+  padding: 0.5em;
+  background-color: #538fcd;
+  color: white;
+  font-size: 1.1em;
 }
 
-form button{
-display: block;
-width: 100%;
-background-color: #538fcd;
-color: white;
-font-size: 1.1em;
-border: 0px;
-border-radius: 0px;
-box-shadow: none;
-margin-top: 10px;
-padding: 10px;
-cursor: pointer;
+::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.5em;
 }
 
-#genre{
-margin-top: 20px;
+form button {
+  display: block;
+  width: 100%;
+  background-color: #538fcd;
+  color: rgb(255, 255, 255);
+  font-size: 1.1em;
+  border: 0;
+  box-shadow: none;
+  border-radius: 0px;
+  margin-top: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.delete {
+  border: 0;
+  box-shadow: none;
+  border-radius: 0px;
+  color: #fff;
+  background-color: #ff5a5f;
+  cursor: pointer;
 }

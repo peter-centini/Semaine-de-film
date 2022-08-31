@@ -16,8 +16,8 @@ const calendar = new VanillaCalendar({
   ],
   shortWeekday: ["Dim", "Lun", "Mar", "Mer", "Jeu", "Ven", "Sam"],
   onSelect: (data, elem) => {
-    // console.log(data);
-    // console.log(elem);
+    console.log(data);
+    console.log(elem);
     selectedDate.date = new Date(data.date).toISOString();
     displayMoviesByDate(selectedDate.date);
   },
