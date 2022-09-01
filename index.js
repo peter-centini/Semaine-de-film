@@ -21,7 +21,7 @@ const calendar = new VanillaCalendar({
     selectedDate.date = new Date(data.date).toISOString();
     displayMoviesByDate(selectedDate.date);
   },
-  pastDates: false,
+  pastDates: true,
 });
 
 let selectedDate = {};
